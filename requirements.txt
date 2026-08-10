@@ -1,0 +1,6 @@
+streamlit
+supabase
+pandas
+openpyxl
+huggingface_hub
+pillow
