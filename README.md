@@ -1,11 +1,8 @@
 # 📚 AutoAttend - Automated Student Attendance Tracker
-
 AutoAttend is an AI-powered, cloud-native web application designed to help students track and monitor their class attendance effortlessly. Built with Python, Streamlit, and Supabase, it automatically processes university schedules, logs daily attendance, visualizes subject-wise percentages, and generates multi-sheet Excel reports.
-
 ---
 
 ## 🌟 Key Features
-
 * **AI Timetable Parsing:** Uses Vision LLMs (Hugging Face Inference API / NVIDIA NIM) to extract subjects, days, and times from raw timetable images/PDFs.
 * **Daily Attendance Logger:** Quick form to log class status (*Attended*, *Missed*, or *Cancelled*).
 * **Live Dashboard:** Displays real-time metrics, overall attendance percentage, and subject-wise progress bars.
