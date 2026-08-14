@@ -14,11 +14,11 @@ def init_supabase() -> Client:
 supabase = init_supabase()
 
 # Page Title & Layout
-st.set_page_config(page_title="AutoAttend", page_icon="📚", layout="wide")
-st.title("📚 AutoAttend Student Dashboard")
+st.set_page_config(page_title="AutoAttend", layout="wide")
+st.title(" AutoAttend Student Dashboard")
 
 # Navigation Tabs
-tab1, tab2, tab3 = st.tabs(["📝 Log Attendance", "📊 Dashboard Stats", "📥 Export Excel"])
+tab1, tab2, tab3 = st.tabs(["📝 Log Attendance", " Dashboard Stats", "📥 Export Excel"])
 
 # --- TAB 1: DAILY LOGGING ---
 with tab1:
